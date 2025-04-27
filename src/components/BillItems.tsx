@@ -1,7 +1,7 @@
 import React from "react";
 import { IMenu } from "./Menu";
 
-export const BillItems: React.FC<IMenu> = ({ values, setValues }) => {
+export const BillItems: React.FC<IMenu> = ({ values }) => {
   
     const prices = (index: number): number => {
     const newValues = [...values];

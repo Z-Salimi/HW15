@@ -72,7 +72,7 @@ export const Starbucks: React.FC = () => {
   }, [values]);
 
   return (
-    <section className="w-full h-fit bg-slate-200 p-8 flex flex-col items-center gap-5">
+    <section className=" w-full h-fit bg-slate-200 p-8 flex flex-col items-center gap-5">
       <div className="flex justify-center items-center gap-5">
         <img src="../src/assets/logo.png" alt="" className="size-20" />
         <h1 className="font-extrabold text-4xl text-gray-800">Starbucks</h1>
@@ -89,7 +89,7 @@ export const Starbucks: React.FC = () => {
         Total: ${totalPrice()}
       </p>
       <button
-        className={`w-[80vw] px-3 py-2 rounded-lg ${
+        className={`w-[80%] px-3 py-2 rounded-lg ${
           parseFloat(totalPrice()) === 0 ? "bg-orange-400" : "bg-orange-500"
         } text-white text-lg font-semibold`}
         disabled={parseFloat(totalPrice()) === 0}
