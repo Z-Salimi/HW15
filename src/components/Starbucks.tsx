@@ -74,7 +74,7 @@ export const Starbucks: React.FC = () => {
   return (
     <section className=" w-full h-fit bg-slate-200 p-8 flex flex-col items-center gap-5">
       <div className="flex justify-center items-center gap-5">
-        <img src="../src/assets/logo.png" alt="" className="size-20" />
+        <img src="./logo.png" alt="" className="size-20" />
         <h1 className="font-extrabold text-4xl text-gray-800">Starbucks</h1>
       </div>
       <h4 className="font-semibold text-lg text-slate-700">
